@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rez Baylon C. Buidon | Portfolio</title>
+<meta name="description" content="My First Portfolio">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav class="container" aria-label="Main">
+    <a href="#home" class="logo">Rez Baylon C. Buidon</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><button class="icon-btn" id="themeBtn" aria-label="Switch light or dark theme">◐</button></li>
+    </ul>
+    <button class="icon-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">☰</button>
+  </nav>
+</header>
+
+<main>
+
+  <section class="hero" id="home">
+    <div class="container">
+      <h1>Hi, I'm Rez Baylon C. Buidon<br>I build things for the web.</h1>
+      <p>I am a web developer specializing in building responsive, user-friendly websites and modern web applications. I am currently looking for freelance or full-time web development opportunities to bring creative digital ideas to life.</p>
+      <a href="#projects" class="btn primary">See my projects</a>
+      <a href="Buidon_Rez_Resume.pdf" class="btn ghost" target="_blank" rel="noopener">View my resume</a>
+      <a href="#contact" class="btn ghost">Contact me</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <h2>About me</h2>
+      <p class="lead">A short introduction to who you are.</p>
+      <div class="about-grid">
+        <!-- Replace the div with: <img class="avatar" src="your-photo.jpg" alt="Photo of Your Name"> -->
+        <img class="avatar" src="download.jpg" alt="My Picture">
+        <div>
+          <p>I am a web developer based in Baguio City, where I earned my Bachelor of Science in Information Technology (BSIT) from STI College Baguio. My passion for technology and hands-on creation is what initially drew me into web development. Currently, I am expanding my skills in modern frameworks to build responsive web applications, and in my free time, I love taking in Baguio's cool climate and exploring new tech trends.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <h2>Skills and Technology</h2>
+      <p class="lead">Languages, tools, and methods I work with.</p>
+
+      <div class="skill-group">
+        <h3>Programming Languages</h3>
+        <div class="chips"><span class="chip">C#</span><span class="chip">Python</span><span class="chip">Java</span><span class="chip">JavaScript</span></div>
+      </div>
+
+      <div class="skill-group">
+        <h3>Web Development</h3>
+        <div class="chips"><span class="chip">HTML5</span><span class="chip">CSS3</span><span class="chip">React.js</span><span class="chip">ASP.NET Core</span><span class="chip">Responsive Web Design</span></div>
+      </div>
+
+      <div class="skill-group">
+        <h3>Database Management</h3>
+        <div class="chips"><span class="chip">MySQL</span><span class="chip">SQL Queries</span><span class="chip">Database Design</span><span class="chip">CRUD Operations</span></div>
+      </div>
+
+      <div class="skill-group">
+        <h3>Development Tools</h3>
+        <div class="chips"><span class="chip">Visual Studio</span><span class="chip">Visual Studio Code</span><span class="chip">Git</span><span class="chip">GitHub</span></div>
+      </div>
+
+      <div class="skill-group">
+        <h3>Software Testing</h3>
+        <div class="chips"><span class="chip">Functional Testing</span><span class="chip">Cross-Device Compatibility Testing</span><span class="chip">Bug Identification and Debugging</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <p class="lead">A few things I've built.</p>
+
+      <div class="grid">
+        <article class="card" data-category="web">
+          <img class="thumb" src="logo.png" alt="Amianan">
+          <div class="body">
+            <h3>Amianan</h3>
+            <p>An interactive web application designed to preserve and bridge language gaps across Northern Luzon by providing seamless translations for Ilocano, Ibaloi, and Kankanaey.</p>
+            <div class="chips"><span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span><span class="chip">Python</span></div>
+            <div class="links"><a href="https://amianan-682ff.web.app/">Amianan</a></div>
+          </div>
+        </article>
+        <article class="card" data-category="app">
+          <img class="thumb" src="logo2.png" alt="Watwatan sa Baguio">
+          <div class="body">
+            <h3>Kiosk</h3>
+            <p>A self-service kiosk system for "Watwatan sa Baguio" developed in C# using Visual Studio Code. Designed to streamline local ordering, manage menu items, and deliver an intuitive, user-friendly digital experience for customers.</p>
+            <div class="chips"><span class="chip">C#</span><span class="chip">Visual Studio 2022</span></div>
+
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications">
+    <div class="container">
+      <h2>Certifications</h2>
+      <p class="lead">Courses and credentials I've completed.</p>
+      <ul class="cert-list">
+        <li class="cert">
+          <div><strong>Maintaining a Competitive EDGE in this AI Landscape Participant</strong><span>EDGE</span></div>
+          <div><span>Issued February 2026</span></div>
+        </li>
+        <li class="cert">
+          <div><strong>CodeFest 2025 - 2026 Champion Local Level</strong><span>STI College Baguio</span></div>
+          <div><span>Issued March 2026</span></div>
+        </li>
+        <li class="cert">
+          <div><strong>Filipino Brand Of Service Excellence Participant</strong><span>Department of Tourism</span></div>
+          <div><span>Issued November 2025</span></div>
+        </li>
+        <li class="cert">
+          <div><strong>Hack4Gov 2025 Regionals Participant</strong><span>Department of Information and Communications Technology CAR</span></div>
+          <div><span>Issued October 2025</span></div>
+        </li>
+        <li class="cert">
+          <div><strong>Tabulator in Mister and Miss La Trinidad</strong><span>STI College</span></div>
+          <div><span>Issued March 2025</span></div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p class="lead">Have a project or an opportunity? Send me a message.</p>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p><strong>Email</strong><br><a href="mailto:rezbaylon@gmail.com">rezbaylon@gmail.com</a></p>
+          <p><strong>Location</strong><br>Baguio City, Philippines</p>
+          <p><strong>Elsewhere</strong><br><a href="https://github.com/rezlanggg">GitHub</a></p>
+        </div>
+
+        <!-- This form opens the visitor's email app. To receive messages directly,
+             replace the JavaScript handler with a form service such as Formspree. -->
+        <form id="contactForm">
+          <label>Name <input type="text" name="name" required></label>
+          <label>Email <input type="email" name="email" required></label>
+          <label>Message <textarea name="message" required></textarea></label>
+          <button type="submit" class="btn primary">Send message</button>
+          <p id="formNote" role="status"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">© <span id="year"></span> Rez Baylon C. Buidon. All rights reserved.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
